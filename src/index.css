@@ -38,3 +38,13 @@ code {
 ::-webkit-scrollbar-thumb:hover {
   background: #7c3aed;
 }
+
+/* Firefox */
+.custom-scrollbar {
+  scrollbar-width: thin;
+  scrollbar-color: #3f3f46 transparent;
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #52525b transparent;
+}
